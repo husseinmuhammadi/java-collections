@@ -3,13 +3,12 @@ package com.javastudio.tutorial.collections.list;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-import java.util.ArrayList;
 import java.util.List;
+import java.util.concurrent.CopyOnWriteArrayList;
 
-class ArrayListIsNotThreadSafeTest {
+class CopyOnWriteArrayListIsThreadSafeTest {
 
-    // replace it with Vector and see the result
-    List<Object> objects = new ArrayList<>();
+    List<Object> objects = new CopyOnWriteArrayList<>();
 
     @Test
     void shouldAddTwoMillionItemsToList() throws InterruptedException {

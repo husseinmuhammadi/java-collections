@@ -5,11 +5,11 @@ import org.junit.jupiter.api.Test;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Vector;
 
-class ArrayListIsNotThreadSafeTest {
+class VectorIsThreadSafeTest {
 
-    // replace it with Vector and see the result
-    List<Object> objects = new ArrayList<>();
+    List<Object> objects = new Vector<>();
 
     @Test
     void shouldAddTwoMillionItemsToList() throws InterruptedException {
