@@ -3,13 +3,14 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
+
     <parent>
         <groupId>com.javastudio.tutorial.collections</groupId>
         <artifactId>collections-parent</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <artifactId>collections-init</artifactId>
+    <artifactId>java-list</artifactId>
 
     <properties>
         <main-class>com.javastudio.tutorial.collections.JavaCollectionsApplication</main-class>
@@ -22,13 +23,6 @@
                 <artifactId>maven-jar-plugin</artifactId>
             </plugin>
         </plugins>
-
-        <resources>
-            <resource>
-                <filtering>true</filtering>
-                <directory>src/main/resources</directory>
-            </resource>
-        </resources>
     </build>
 
     <dependencies>
