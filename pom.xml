@@ -12,6 +12,10 @@
     <modules>
         <module>init</module>
         <module>list</module>
+        <module>adyen</module>
+        <module>sort</module>
+        <module>set</module>
+        <module>tree</module>
     </modules>
 
     <properties>
