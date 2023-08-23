@@ -20,8 +20,8 @@ public class TreeTest {
         sortedPosts.add(new Post("Title 3", "Description 3", Instant.now().minusSeconds(240)));
         sortedPosts.add(new Post("Title 4", "Description 4", Instant.now().minusSeconds(720)));
 
-        // Calculate the cutoff time (10 minutes ago)
-        Instant cutoffTime = Instant.now().minus(Duration.ofSeconds(300));
+        // Calculate the cutoff time (5 minutes ago)
+        Instant cutoffTime = Instant.now().minus(Duration.ofMinutes(5));
 
         // Retrieve recent posts
         Set<Post> recentPosts = sortedPosts.tailSet(new Post("", "", cutoffTime));
