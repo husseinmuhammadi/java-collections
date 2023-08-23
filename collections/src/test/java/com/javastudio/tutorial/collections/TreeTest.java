@@ -8,7 +8,7 @@ import java.util.Set;
 import java.util.SortedSet;
 import java.util.TreeSet;
 
-public class TreeTest {
+class TreeTest {
 
     @Test
     void should_return_posts_in_last_5_minute() {
